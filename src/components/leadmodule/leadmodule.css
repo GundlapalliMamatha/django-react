@@ -1,0 +1,45 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap:10px;
+    margin:40px 40px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 22px;   
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 22px;  
+}
+input{
+    height: 24px;
+    border:none;
+    border-bottom:1px solid rgb(3, 6, 185) ;
+    width:92%;
+}
+select{
+    width:92%;
+    height: 27px;
+    border:none;
+    border-bottom:1px solid rgb(30, 13, 152) ;
+}
+lable{
+    text-align:left ;
+}
+button{
+    background-color: rgb(61, 61, 173);
+    padding: 3px 32px;
+    margin-right: 10px;
+    color: white;
+    margin-bottom: 30px;
+}
+h3{
+    color: white;
+    background-color: rgb(108, 108, 220);
+}
